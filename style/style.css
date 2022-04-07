@@ -1,0 +1,362 @@
+body{
+    background-image: url(../images/kosmosh.jpg);
+    font-family: "Open Sans",  Impact;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*   uran*/
+
+
+.uuP{
+    text-align: center;
+    justify-self: unset;
+    color: #fff;
+    
+}
+.uu{
+    text-align: right;
+    color: #fff;
+}
+.modalUranPlanet{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    overflow: auto;
+    right: 65px;
+    bottom: 300px;
+    width: 580px;
+    
+    /* background: url(../images/backgr.gif) no-repeat ; */
+    
+
+    background-color: rgba(61, 60, 60, 0.8);
+}
+.ContentPlanet{
+    
+    margin: 15% auto;
+    padding-top: 0px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 80%; 
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 160px;
+    background: url(../images/uranNew.gif) no-repeat left center;
+    background-color:transparent;
+    background-size: 160px 160px;
+    
+}
+.displayNone{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* saturn */
+
+.s{
+    text-align: center;
+    justify-self: unset;
+    color: rgb(255, 254, 254);
+    
+}
+.ss{
+    text-align: right;
+    color: #fff;
+}
+.block{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    overflow: auto;
+    right: 65px;
+    bottom: 300px;
+    width: 580px;
+    
+    /* background: url(../images/backgr.gif) no-repeat ; */
+    
+
+    background-color: rgba(61, 60, 60, 0.8);
+}
+.blockIn{
+    
+    margin: 15% auto;
+    padding-top: 0px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 80%; 
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 160px;
+    background: url(../images/saturnNew2.gif) no-repeat left center;
+    background-color:transparent;
+    background-size: 160px 160px;
+    
+}
+.byeBye{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* .jupiter{} */
+.tt{
+    text-align: right;
+    justify-self: unset;
+    color: #fff;
+    
+}
+.t{
+    text-align: center;
+    color: #fff;
+}
+.container{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    overflow: auto;
+    right: 65px;
+    bottom: 300px;
+    width: 580px;
+    
+    /* background: url(../images/backgr.gif) no-repeat ; */
+    
+
+    background-color: rgba(61, 60, 60, 0.8);
+}
+.containerIn{
+    margin: 15% auto;
+    padding-top: 0px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 80%; 
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 160px;
+    background: url(../images/jupiterNew.gif) no-repeat left center;
+    background-color:transparent;
+    background-size: 160px 145px;
+}
+.zakryt{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* earth */
+.texte{
+    text-align: center;
+    justify-self: unset;
+    color: #fff;
+    
+}
+.textMaine{
+    text-align: right;
+    color: #fff;
+}
+.modale{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    overflow: auto;
+    right: 65px;
+    bottom: 300px;
+    width: 580px;
+    
+    /* background: url(../images/backgr.gif) no-repeat ; */
+    
+
+    background-color: rgba(61, 60, 60, 0.8);
+}
+.modal-contente{
+    
+    margin: 15% auto;
+    padding-top: 0px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 80%; 
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 160px;
+    background: url(../images/earthNew.gif) no-repeat left center;
+    background-color:transparent;
+    background-size: 160px 160px;
+    
+}
+.closee{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* sun */
+.text{
+    text-align: center;
+    justify-self: unset;
+    color: #fff;
+    
+}
+.textMain{
+    text-align: right;
+    color: #fff;
+}
+.modal{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    overflow: auto;
+    right: 65px;
+    bottom: 300px;
+    width: 580px;
+    
+    /* background: url(../images/backgr.gif) no-repeat ; */
+    
+
+    background-color: rgba(61, 60, 60, 0.8);
+}
+.modal-content{
+    
+    margin: 15% auto;
+    padding-top: 0px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 80%; 
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 160px;
+    background: url(../images/sunNew.gif) no-repeat left center;
+    background-color:transparent;
+    background-size: 170px 170px;
+    
+}
+.close{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.area {
+  text-align: center;
+  font-size: 70px;
+  color: whitesmoke;
+  top: 100px;
+  
+  font-weight: 700px;
+  text-transform: uppercase;
+  animation: blur 5s ease-in infinite ;
+  text-shadow: 0px 0px 5px grey, 0px 0px 7px greenyellow;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      
+      0px 0px 50px grey,
+      0px 0px 50px #fff,
+      
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+     
+      0px 10px 100px #7B96B8,
+      
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+.sunPlanet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20% auto;
+    width: 170px;
+    height: 170px;
+    align-self: center;
+    
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+
+}
+
+.mercury{
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    width: 75px;
+    height: 55px;
+    
+}
+.venera{
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    border-radius: 100%;
+    top:260px;
+    left: 790px;
+
+}
+.earth{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+    top:300px;
+    left: 400px;
+
+}
+.mars{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    top:450px;
+    left: 350px;
+
+}
+.jupiter{
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    border-radius: 100%;
+    top:520px;
+    left: 820px;
+}
+.saturn{
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    border-radius: 100%;
+    top:630px;
+    left: 700px;
+
+}
+.uran{
+    position: absolute;
+    width: 110px;
+    height: 65px;
+    border-radius: 100%;
+    top:420px;
+    left: 1010px;
+
+}
+.neptun{
+    position: absolute;
+    top: 150px;
+    right: 170px;
+    width: 60px;
+    height: 50px;
+
+}
+.pluton{
+    position: absolute;
+    top: 300px;
+    right: 65px;
+    width: 43px;
+    height: 35px;
+
+}
